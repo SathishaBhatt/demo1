@@ -1,0 +1,81 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-image: url('https://th.bing.com/th/id/R.b8414fd6cf0573f8d86c3d8dc7183e04?rik=HYgdPRWH8vQQ6w&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fK0HCxt0.jpg&ehk=3OdT%2fHjlxJ%2f08TjGkoc9qNk7IYOPzwyDeGZt5OzqFMA%3d&risl=&pid=ImgRaw&r=0'); /* Replace with your background image path */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.main-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: darkgreen;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.login-box {
+    width: 300px;
+    padding: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background: rgba(82, 80, 80, 0.5);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+}
+
+.textbox {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn {
+    width: 100%;
+    background: none;
+    border: 2px solid #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
